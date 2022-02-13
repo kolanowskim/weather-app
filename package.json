@@ -1,0 +1,27 @@
+{
+  "name": "js-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv-webpack": "^7.1.0",
+    "eslint": "^8.9.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.13.4",
+    "@googlemaps/three": "^1.0.16",
+    "css-loader": "^6.6.0",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.1",
+    "three": "^0.137.5"
+  }
+}
