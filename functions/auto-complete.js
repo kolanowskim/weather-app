@@ -1,4 +1,4 @@
-import { fetchAllData } from "./fetchAllData";
+import { fetchAllData } from "./fetch-all-data";
 
 export function autoComplete(map, google) {
   const input = document.getElementById("searchBar-input");

@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import mapOptions from "./mapOptions";
+import mapOptions from "./map-options";
 
 export function initWebGLOverlayView(map, google) {
   let scene, renderer, camera;

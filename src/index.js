@@ -1,5 +1,5 @@
 import { Loader } from "@googlemaps/js-api-loader";
-import { initMap } from "../functions/initMap";
+import { initMap } from "../functions/init-map";
 /* import style from "../styles/index.css"; */
 
 const loader = new Loader({
