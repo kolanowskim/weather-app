@@ -6,7 +6,10 @@ module.exports = {
   mode: "development",
   watch: true,
   entry: {
-    main: path.resolve(__dirname, "src/index.js"),
+    main: [
+      path.resolve(__dirname, "src/index.js"),
+      path.resolve(__dirname, "styles/index.css"),
+    ],
   },
 
   output: {
@@ -16,10 +19,7 @@ module.exports = {
   },
 
   module: {
-    rules: [
-      //css
-      { test: /\.css$/, use: ["style-loader", "css-loader"] },
-    ],
+    rules: [{ test: /\.css$/, use: ["style-loader", "css-loader"] }],
   },
   plugins: [
     new Dotenv(),

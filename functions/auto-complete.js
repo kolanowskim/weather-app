@@ -31,9 +31,16 @@ export function autoComplete(map, google) {
     if (place.geometry.location) {
       map.setCenter(place.geometry.location);
       fetchAllData(lat, lng, name);
+      clearInput();
     } else {
       map.fitBounds(place.geometry.viewport);
       fetchAllData(lat, lng, name);
+      clearInput();
     }
   });
+
+  function clearInput() {
+    input.blur();
+    input.value = "";
+  }
 }
