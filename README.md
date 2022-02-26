@@ -24,5 +24,7 @@ App where you can check weather of your city with nice 3D background.
 ## Screenshots
 
 ### Mobile View
+![image](https://user-images.githubusercontent.com/83921557/155856516-471b1e9a-9280-4a13-8481-a76ea2d614c9.png)
 
 ### Desktop View
+![image](https://user-images.githubusercontent.com/83921557/155856526-34c73e78-ef25-468a-95d3-ebf7a8209236.png)
