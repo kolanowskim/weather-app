@@ -1,25 +1,27 @@
 # Weather App
 
-App where you can check weather of your city with nice 3D background.
+App where you can check city weather with nice 3D background.
 
 ## General Information
 
-- You can provide only city.
-- App display actual weather data.
-- Data (weather informations, background view) are fetching from indicated location.
+- You can provide only cities
+- App display actual weather data
+- Data (weather informations, background view) are fetching from indicated location
 
 ## Features:
 
 - Autocomplete input with cities
-- Dispalying informations about: Temperature, AQI, Weather description and Seven days forecast.
-- A 3D city map is rendered in the background.
+- Dispalying informations about: Temperature, AQI, Weather description and Seven days forecast
+- A 3D city map is rendered in the background
 
 ## Technology Stack:
 
 - Javascript
+- HTML/CSS
 - Webpack
 - Google Maps
 - Three.js
+- Eslint
 
 ## Screenshots
 
