@@ -11,7 +11,7 @@ App where you can check city weather with nice 3D background.
 ## Features:
 
 - Autocomplete input with cities
-- Dispalying informations about: Temperature, AQI, Weather description and Seven days forecast
+- Displaying information about: Temperature, AQI, Weather description and Seven days forecast
 - A 3D city map is rendered in the background
 
 ## Technology Stack:
